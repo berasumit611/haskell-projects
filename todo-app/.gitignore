@@ -1,0 +1,28 @@
+# Stack build files
+.stack-work/
+
+# Cabal build files
+dist/
+dist-newstyle/
+
+# GHCi files
+.ghci/
+
+# SQLite database files
+stack.sqlite3
+stack.sqlite3.pantry-write-lock
+
+# VSCode settings
+.vscode/
+
+# Binary files
+*.hi
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Other files
+*.lock
+*.cache
